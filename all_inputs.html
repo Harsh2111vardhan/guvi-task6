@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Input Types</title>
+</head>
+<body>
+
+<h1>Input Elements</h1>
+
+<form action="/submit" method="post">
+    <label for="text">Text:</label><br>
+    <input type="text" id="text" name="text" ><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" ><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" ><br><br>
+
+    <label for="number">Number:</label><br>
+    <input type="number" id="number" name="number" ><br><br>
+
+    <label for="url">URL:</label><br>
+    <input type="url" id="url" name="url" ><br><br>
+
+    <label for="search">Search:</label><br>
+    <input type="search" id="search" name="search" ><br><br>
+
+    <label for="color">Color:</label><br>
+    <input type="color" id="color" name="color"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <label for="checkbox">Interests:</label><br>
+    <input type="checkbox" id="coding" name="interests" value="coding">
+    <label for="coding">Coding</label><br>
+    <input type="checkbox" id="design" name="interests" value="design">
+    <label for="design">Design</label><br><br>
+
+    <label for="select">Choose a fruit:</label><br>
+    <select id="select" name="fruit">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="cherry">Cherry</option>
+    </select><br><br>
+
+    <label for="textarea">Message:</label><br>
+    <textarea id="textarea" name="message" rows="4" placeholder="Enter your message"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
